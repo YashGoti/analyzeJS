@@ -9,7 +9,7 @@ Don't need to 😂.
 * Change the **token** and  **chat_id** in the file, So that you'll get a notification. [https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e]
 
 ### Features
-* Gather JS URLs using many other tools [**gau, subjs, hakrawler**].
+* Gather JS URLs using many other tools [**gau, gal, subjs, hakrawler**].
 * Checking for live JS urls using tool [**httpx**].
 * Gather content/response from live JS urls [**jsbeautify.py**].
 * Send notification to telegram once your scan will be done [**Telegram Bot API**].
@@ -34,3 +34,7 @@ Don't need to 😂.
 * ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-j** **-c** [ _Find JS URLs fot Target Domain and get response/content for following JS URL_ ]
 * ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-l** **-c** [ _Find live JS URLs fot Target Domain and get response/content for following JS URL_ ]
 * ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-l** **-c** **-n** [ _Find live JS URLs fot Target Domain and get response/content for following JS URL and send notification to telegram bot_ ]
+
+### References 
+![**gal**] https://github.com/YashGoti/gal
+![**jsbeautify.py**][https://github.com/YashGoti/Garbage/blob/master/jsbeautify.py]
