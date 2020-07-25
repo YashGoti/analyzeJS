@@ -28,12 +28,11 @@ Don't need to 😂.
 |**-h**|help|
 
 ### Examples
-* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ [ _Result will store but can't display_ ]
-* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-j** [ _Find JS URLs for Target Domain and will display_ ]
-* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-l** [ _Find live JS URLs for Target Domain and will display_ ]
-* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-j** **-c** [ _Find JS URLs fot Target Domain and get response/content for following JS URL_ ]
-* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-l** **-c** [ _Find live JS URLs fot Target Domain and get response/content for following JS URL_ ]
-* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-l** **-c** **-n** [ _Find live JS URLs fot Target Domain and get response/content for following JS URL and send notification to telegram bot_ ]
+* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-j**
+* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-l**
+* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-j** **-c**
+* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-l** **-c**
+* ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-l** **-c** **-n**
 
 ### References 
 * [gal](https://github.com/YashGoti/gal)
