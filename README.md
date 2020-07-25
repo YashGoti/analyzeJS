@@ -2,7 +2,7 @@
 
 **analyzeJS** is a tool which is a combination of different tools and make **JavaScript[JS] Recon** more automate, if you are doing this _automate then it might take awhile to gather the information regarding JavaScript._
 
-![analyzeJS][https://github.com/YashGoti/analyzeJS/blob/master/logo.svg]
+![analyzeJS](https://github.com/YashGoti/analyzeJS/blob/master/logo.svg)
 
 ### Setup
 Don't need to 😂.
