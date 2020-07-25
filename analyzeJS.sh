@@ -43,12 +43,15 @@ getJSurls(){
 	#gau
 	./tools/gau $1 | grep $1 | sort -u > ./js-recon/$1/gau.txt
 	cat ./js-recon/$1/gau.txt | grep -iE "\.js$" > ./js-recon/$1/gau.jsurls.txt
+	#gal
+	./tools/gal.sh -u $1 | grep $1 | sort -u > ./js-recon/$1/gal.txt
+	cat ./js-recon/$1/gal.txt | grep $1 | grep -iE "\.js$" | sort -u > ./js-recon/$1/gal.jsurls.txt
 	#subjs
 	./tools/subjs -i ./js-recon/$1/gau.txt -c 25 -ua "JS-analyzer" | grep $1 | sort -u > ./js-recon/$1/subjs.txt
 	#hakrawler
 	./tools/hakrawler -js -url $1 -plain -depth 3 -scope strict -insecure | grep $1 > ./js-recon/$1/hakrawler.txt
 	#Merging
-	cat ./js-recon/$1/gau.jsurls.txt ./js-recon/$1/subjs.txt ./js-recon/$1/hakrawler.txt | grep $1 | sort -u > ./js-recon/$1/jsurls.txt
+	cat ./js-recon/$1/gau.jsurls.txt ./js-recon/$1/gal.jsurls.txt ./js-recon/$1/subjs.txt ./js-recon/$1/hakrawler.txt | grep $1 | sort -u > ./js-recon/$1/jsurls.txt
 }
 
 getLiveJSurls(){
@@ -73,7 +76,7 @@ getJSurlsSecrets(){
 
 notifyMe(){
 	# Follow this to find your token and chatid
-    	# https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e
+    # https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e
 	notification=$1
 	token="CHANGEME"
 	chatid="CHANGEME"
