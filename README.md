@@ -2,6 +2,8 @@
 
 **analyzeJS** is a tool which is a combination of different tools and make **JavaScript[JS] Recon** more automate, if you are doing this _automate then it might take awhile to gather the information regarding JavaScript._
 
+![analyzeJS][https://github.com/YashGoti/analyzeJS/blob/master/logo.svg]
+
 ### Setup
 Don't need to 😂.
 * Change the **token** and  **chat_id** in the file, So that you'll get a notification. [https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e]
