@@ -73,10 +73,10 @@ getJSurlsSecrets(){
 
 notifyMe(){
 	# Follow this to find your token and chatid
-    # https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e
+    	# https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e
 	notification=$1
-	token="1037313233:AAH49BVw3DZT03JEztJyEEXAZND930Xe3xg"
-	chatid="665990715"
+	token="CHANGEME"
+	chatid="CHANGEME"
 	curl -s -X POST https://api.telegram.org/bot$token/sendMessage -d chat_id=$chatid -d text="$notification" > /dev/null
 }
 
