@@ -36,7 +36,7 @@ Don't need to 😂.
 
 ### References 
 * [gal](https://github.com/YashGoti/gal)
-* [jsbeautify.py](https://github.com/YashGoti/Garbage/blob/master/jsbeautify.py)
+* [jsbeautify.py](https://github.com/YashGoti/Hacks/blob/master/jsbeautify.py)
 
 ### Contact
 * [Twitter](https://twitter.com/_YashGoti_)
