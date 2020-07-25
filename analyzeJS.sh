@@ -66,12 +66,12 @@ getJSurlsContent(){
 
 getJSurlsEndpoints(){
 	#linkfinder
-	while read -r jsurl; do python3 ./tools/linkfinder.py -d -i $jsurl -o cli > ./js-recon/$1/jsurls.endpoints.txt; done < ./js-recon/$1/jsurls.txt
+	while read -r jsurl; do python3 ./tools/linkfinder.py -d -i $jsurl -o cli >> ./js-recon/$1/jsurls.endpoints.txt; done < ./js-recon/$1/jsurls.txt
 }
 
 getJSurlsSecrets(){
 	#secretfinder
-	while read -r jsurl; do python3 ./tools/secretfinder.py -i $jsurl -o cli > ./js-recon/$1/jsurls.secrets.txt; done < ./js-recon/$1/jsurls.txt
+	while read -r jsurl; do python3 ./tools/secretfinder.py -i $jsurl -o cli >> ./js-recon/$1/jsurls.secrets.txt; done < ./js-recon/$1/jsurls.txt
 }
 
 notifyMe(){
