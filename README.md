@@ -36,8 +36,8 @@ Don't need to 😂.
 * ./analyzeJS.sh **-d** _TARGET_DOMAIN_ **-l** **-c** **-n** [ _Find live JS URLs fot Target Domain and get response/content for following JS URL and send notification to telegram bot_ ]
 
 ### References 
-* [**gal**] https://github.com/YashGoti/gal
-* [**jsbeautify.py**][https://github.com/YashGoti/Garbage/blob/master/jsbeautify.py]
+* [gal](https://github.com/YashGoti/gal)
+* [jsbeautify.py](https://github.com/YashGoti/Garbage/blob/master/jsbeautify.py)
 
 ### Contact
 * [Twitter](https://twitter.com/_YashGoti_)
